@@ -1,5 +1,4 @@
 /* reset */
-
 *{
     padding: 0;
     margin: 0;
@@ -8,15 +7,14 @@
 }
 
 /* clearfix */
-
-.clearfix{
+.blocco1::after, .blocco2::after{
     content: "";
     clear: both;
     display: table;
 }
 
 body{
-    width: 1700px;
+    width: 1600px;
     margin: 0 auto;
 }
 
@@ -24,48 +22,54 @@ body{
     text-align: center;
     color: #e53170;
     font-size: 1.5em;
-    margin: 20px 0;
-    
+    margin: 20px 0;    
 }
 
 #p-lorem{
+    width: 100%;
     text-align-last: center;
     margin-bottom: 30px;
 }
 
 .blocco1, .blocco2{
-    width: 1700px;
-    height: 200px;
-    padding: 40px 0;
+    width: 1600px;
+    height: 120px;
+    padding: 0; 
+    
     
 }
 
-#ca{
-    display: inline-block;
-    vertical-align: top;
-    line-height: 38px;
+.p-interno{
+    display: inline;
     color: white;
-    padding: 5px 0 0 20px;
-
+    height: 120px;
+    width: 300px;
+    vertical-align: middle;
+    position: absolute;
+    line-height: 39px;
+    font-size: 1.3em;
+    padding-left: 20px;
 }
-
 
 img{
     width: 120px;
-    height: 120px;
-    
+    height: 120px;  
 }
 
-#card1,  #card2, #card3{
-    margin: auto;
-    width: 400px;
+.card1,  .card2, .card3{
+    width: 513px;
     height: 120px;
     background-color: #0e3644;
     float: left;
-    
-    
+    position: relative;
+    margin-bottom: 40px;
+       
 }
 
-#card2{
-    margin: 0 250px;
+.middle-card{
+    margin: 0 30px;
+}
+
+#cazzi{
+    display: inline-block;
 }
