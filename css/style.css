@@ -4,4 +4,70 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+/* clearfix */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body{
+    width: 1700px;
+    margin: 0 auto;
+}
+
+#slogan{
+    text-align: center;
+    color: #e53170;
+    font-size: 1.5em;
+    margin: 20px 0;
+    
+}
+
+#p-lorem{
+    text-align-last: center;
+    margin-bottom: 30px;
+    
+
+}
+
+.blocco1{
+    
+    height: 200px;
+    padding: 40px 0;
+    
+}
+
+#ca{
+    display: inline-block;
+    vertical-align: top;
+    line-height: 38px;
+    color: white;
+
+}
+
+
+img{
+    width: 110px;
+    height: 110;
+    
+}
+
+#card1,  #card2, #card3{
+    
+    width: calc(99% / 3);
+    background-color: #0f0e17;
+    float: left;
+    
+    
+}
+
+.blocco2{
+    
+    height: 200px;
+    padding: 40px 0;
 }
