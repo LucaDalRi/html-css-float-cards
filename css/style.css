@@ -34,16 +34,14 @@ body{
 .blocco1, .blocco2{
     width: 1600px;
     height: 120px;
-    padding: 0; 
-    
-    
+    padding: 0;   
 }
 
 .p-interno{
     display: inline;
     color: white;
     height: 120px;
-    width: 300px;
+    width: 390px;
     vertical-align: middle;
     position: absolute;
     line-height: 39px;
@@ -63,7 +61,7 @@ img{
     float: left;
     position: relative;
     margin-bottom: 40px;
-       
+    box-shadow: -7px -3px 15px 1px rgba(0,0,0,0.64);     
 }
 
 .middle-card{
