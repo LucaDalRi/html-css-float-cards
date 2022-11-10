@@ -9,7 +9,7 @@
 
 /* clearfix */
 
-.clearfix::after {
+.clearfix{
     content: "";
     clear: both;
     display: table;
@@ -31,11 +31,10 @@ body{
 #p-lorem{
     text-align-last: center;
     margin-bottom: 30px;
-    
-
 }
 
-.blocco1{
+.blocco1, .blocco2{
+    width: 1700px;
     height: 200px;
     padding: 40px 0;
     
@@ -60,7 +59,8 @@ img{
 #card1,  #card2, #card3{
     margin: auto;
     width: 400px;
-    background-color: #0f0e17;
+    height: 120px;
+    background-color: #0e3644;
     float: left;
     
     
@@ -68,10 +68,4 @@ img{
 
 #card2{
     margin: 0 250px;
-}
-
-.blocco2{
-    
-    height: 200px;
-    padding: 40px 0;
 }
